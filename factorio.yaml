@@ -27,8 +27,6 @@ spec:
           value: "true"
         - name: SAVE_NAME
           value: dex_save_
-        - name: DLC_SPACE_AGE
-          value: "false"
       envFrom:
         - secretRef:
             name: factorio-secrets
