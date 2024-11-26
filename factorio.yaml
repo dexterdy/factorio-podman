@@ -16,8 +16,8 @@ spec:
     - name: app
       image: docker.io/factoriotools/factorio:stable
       ports:
-        - containerPort: 4656
-          hostPort: 4656
+        - containerPort: 34197
+          hostPort: 34197
           protocol: UDP
         - containerPort: 27015
           hostPort: 27015
@@ -30,8 +30,6 @@ spec:
           value: dex_save_
         - name: DLC_SPACE_AGE
           value: "false"
-        - name: BIND
-          value: "147.185.221.24"
       envFrom:
         - secretRef:
             name: factorio-secrets
