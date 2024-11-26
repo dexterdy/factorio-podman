@@ -18,6 +18,7 @@ spec:
       ports:
         - containerPort: 34197
           hostPort: 34197
+          protocol: UDP
         - containerPort: 27015
           hostPort: 27015
       env:
