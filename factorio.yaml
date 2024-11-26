@@ -25,6 +25,8 @@ spec:
           value: "true"
         - name: UPDATE_MODS_ON_START
           value: "true"
+        - name: SAVE_NAME
+          value: dex_save_
       envFrom:
         - secretRef:
             name: factorio-secrets
