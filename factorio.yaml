@@ -14,7 +14,7 @@ spec:
 
   containers:
     - name: app
-      image: docker.io/factoriotools/factorio:latest
+      image: docker.io/factoriotools/factorio:stable
       ports:
         - containerPort: 34197
           hostPort: 34197
