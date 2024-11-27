@@ -30,6 +30,8 @@ spec:
           value: dex_save_
         - name: DLC_SPACE_AGE
           value: "false"
+        - name: BIND
+          value: "127.0.0.1"
       envFrom:
         - secretRef:
             name: factorio-secrets
