@@ -15,6 +15,7 @@ spec:
   containers:
     - name: app
       image: docker.io/factoriotools/factorio:stable
+      imagePullPolicy: always
       ports:
         - containerPort: 34197
           hostPort: 34197
